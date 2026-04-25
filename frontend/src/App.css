@@ -1,0 +1,339 @@
+body{
+  background-color: #e7ebee;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.login-wrapper {
+  background-color: #f4e5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  height: 640px;
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border-top: 5px solid #f47501;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.logo-img{
+    border: 3px solid #f47501;
+}
+
+.login-card-title{
+    color: #f47605;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-group i {
+  position: absolute;
+  right: 10px;
+  top: 46px;
+  cursor: pointer;
+  color: #555;
+}
+
+.btn-login {
+  width: 100%;
+  background: #f67c0d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 12px;
+  color: #777;
+  background-color: #ffdec0a6;
+}
+.footer b {
+  color: #f47501;
+}
+
+.card {
+  border: 2px dotted #f47501;   /* Orange dashed border */
+  border-radius: 8px;
+}
+
+.card-body {
+  color: #333;
+  border-radius: 6px;
+}
+
+.orng {
+  color: #f47501;   
+}
+
+.orng-bg {
+  width: 210px;
+  background-color: #f4760135;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.enquiryCard {
+  border: 2px solid #f47501;
+  border-radius: 8px;
+}
+
+.orng-border {
+  border: 2px dotted #ffb067;
+  border-radius: 0px;
+  padding: 8px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.15);
+}
+
+.btnColor {
+  background-color: #ffb067;
+  color: white;
+  width: 30%;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+}
+
+.btnColor:hover {
+  background-color: #e65c00;
+  color: white;
+}
+
+
+/* Dashboard css start */
+/* Sidebar */
+.offcanvas {
+  width: 250px;
+}
+
+.asideContent {
+  padding: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.asideContent:hover {
+  background-color: rgb(172, 215, 231);
+  color: royalblue;
+  border-radius: 0px 20px 20px 0px;
+  margin-left: -20px;
+}
+
+/* Bell Icon */
+.bell {
+  margin-right: 90%;
+}
+
+.bellIcon {
+  color: #6c757d;
+  font-size: 20px;
+}
+
+.bellIcon:hover {
+  color: royalblue;
+}
+
+/* Logo */
+.setLogo {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.imgHeader {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.header{
+background:linear-gradient(to right,#ff7a00,#ffb067);
+border-radius: 0px 0px 20px 20px;
+}
+
+.navLogo{
+  width:20%;
+  height:20%;
+  border-radius:50%;
+  margin-left: 80%;
+  border: 1px solid white;
+  padding: 4px;
+}
+
+/* Container */
+.dash-container {
+  padding: 20px;
+}
+
+/* Card */
+.dash-card {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+/* Form */
+.dash-label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.dash-input {
+  border: 1px solid rgba(128, 128, 128, 0.477);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.dash-btn {
+  background-color: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dash-btn:hover {
+  background-color: #e65c00;
+}
+
+/* Table */
+.center_table th, 
+.center_table td {
+  border-left: 1px solid #c1bfbf;
+  padding: 10px;
+}
+
+.center_table th {
+  background-color: #d2e1e5;
+  font-weight: bold;
+  border-bottom: 2px solid #c1bfbf;
+}
+
+.dash-action {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.userdash-container {
+  padding: 20px;
+}
+
+.userdash-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.userdash-title {
+  font-weight: bold;
+  color: #ff6a00;
+  margin-bottom: 20px;
+}
+
+.userdash-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.userdash-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.userdash-btn {
+  margin-top: 15px;
+  background-color: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.userdash-btn:hover {
+  background-color: #e65c00;
+}
+
+.userdash-checkboxes {
+  margin-top: 10px;
+}
+
+.userdash-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userdash-table th, 
+.userdash-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.userdash-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.userdash-action {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.userdash-edit { background-color: #007bff; color: #fff; }
+.userdash-perm { background-color: #17a2b8; color: #fff; }
+.userdash-delete { background-color: #dc3545; color: #fff; }
+
+.userdash-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+}
+
