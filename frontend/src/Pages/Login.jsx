@@ -12,7 +12,7 @@ function Login() {
         e.preventDefault();  //form ko submit hone k baad refresh hone se rokta h
         const admin = {email, password};
         console.log(admin);
-        const response = await axios.post('http://localhost:3000/api/admin/log', admin);
+        const response = await axios.post('https://crm-1backend-p8ur.onrender.com/api/admin/log', admin);
         console.log(response);
         
         if(response.data.msg == "Success"){
